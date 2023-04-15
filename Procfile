@@ -1,0 +1,1 @@
+web: gunicorn app:trial1.py
