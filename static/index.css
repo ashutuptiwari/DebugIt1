@@ -1,0 +1,121 @@
+header p,div
+{
+    display:inline-block;
+}
+#circle
+{
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    background-color:lightcoral;
+}
+#name
+{
+    font-size:30px;
+    font-family:Garamond;
+    font-weight:bold;
+    margin:0px;
+}
+#job
+{
+    font-size:17px;
+    margin: 5px;
+    
+}
+#links
+{
+    float:right;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+header p,div
+{
+    margin-top:0px;
+}
+header a 
+{
+  text-decoration: none; 
+  color:black;
+}
+#heading
+{
+  text-align: center;
+  font-family: cursive;
+  color: black;
+  
+    padding-bottom:none;
+    margin:none;
+    border:none;
+    font-size: 50px;
+}
+h1
+{
+    padding-bottom:none;
+}
+#container
+{
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+    
+}
+#summary
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#stream
+{
+    border:5px black solid;
+    padding-top:none;
+    border-radius:5%;
+    padding:0px;  
+    margin:0px;
+    
+}
+#summary a
+{
+    text-decoration:none;
+    color:royalblue;
+    transition:all 1s ease;
+    
+}
+#summary a:hover
+{
+    background-color:black;
+    color:beige;
+}
+
+main
+{
+    height:auto;
+    align-items:center;
+    justify-content: center;
+    background-color:beige;
+    margin:50px;
+    transition: background-color 1s ease;
+}
+p
+{
+    text-align:center;
+}
+footer
+{
+    display:flex;
+   justify-content: center;
+    align-items:baseline;
+    padding:20px;
+}
+#insta,#LinkedIn,#Github
+{
+   
+    height:20px;
+    margin:0px 0px 0px 20px;
+    
+}
+footer p
+{
+    margin:0px;
+}
